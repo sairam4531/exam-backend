@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 3001;
 // ==================== MIDDLEWARE ====================
 // ==================== MIDDLEWARE ====================
 const allowedOrigins = [
-  "https://exam-backend-vfgt.onrender.com",
-  "http://localhost:3000",
+  "https://exam-backend-vfgt.onrender.com/api/responses",
+  "http://localhost:3001",
   "http://localhost:5173",
   "http://127.0.0.1:3000",
   "http://127.0.0.1:5173"
